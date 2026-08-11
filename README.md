@@ -1,5 +1,7 @@
 # Cafe-Pimienta
 
+# Grano y grano
+
 Sistema de gestión de compras de café y pimienta con cálculo automático de totales, control de merma y panel de estadísticas de inversión, disponible en versión móvil y web.
 
 ## Descripción
@@ -63,14 +65,33 @@ grano-y-grano/
 └── README.md
 ```
 
+## Visión a futuro
+
+Más allá del registro y control de compras, el proyecto contempla evolucionar hacia una plataforma inteligente de comercialización:
+
+- **Minería de datos**: análisis del historial de compras para detectar patrones de precios, estacionalidad y comportamiento de proveedores, con el fin de anticipar tendencias de mercado.
+- **Algoritmos genéticos**: optimización de estrategias de compra (cuándo comprar, a qué precio y en qué volumen) para maximizar el margen de inversión con base en datos históricos.
+- **Módulo de marketplace (productores y compradores)**: un espacio donde los productores puedan publicar los kilos disponibles de su cosecha (café/pimienta, seco o verde) y los compradores puedan ofertar por ellos mediante un sistema de pujas/subastas, quedándose con el lote quien ofrezca el mejor precio.
+- **Perfiles diferenciados**: cuentas de tipo productor/vendedor (publican inventario disponible) y comprador (ve inventario disponible, realiza ofertas y da seguimiento a sus pujas).
+
+Estas funcionalidades se desarrollarán en fases posteriores al MVP de registro y estadísticas.
+
 ## Roadmap
 
+**Fase 1 — MVP**
 - [ ] Registro y cálculo de compras (seco/verde/merma)
 - [ ] Historial de compras con filtros
 - [ ] Dashboard de estadísticas e inversión
 - [ ] Autenticación de usuarios
 - [ ] Exportación de reportes
-- [ ] Versión móvil nativa
+
+**Fase 2 — Inteligencia y marketplace**
+- [ ] Minería de datos sobre historial de compras
+- [ ] Modelo de algoritmos genéticos para optimización de compras
+- [ ] Perfiles de productor y comprador
+- [ ] Publicación de kilos disponibles por parte de productores
+- [ ] Sistema de pujas/subastas para compradores
+- [ ] Notificaciones de ofertas y cierre de subasta
 
 ## Licencia
 
@@ -78,4 +99,5 @@ grano-y-grano/
 
 ## Autor
 
+Desarrollado por [Isai Abel López Sánchez](https://github.com/isaili) — Softvana.
 Desarrollado por [Isai Abel López Sánchez](https://github.com/isaili) — Softvana.
